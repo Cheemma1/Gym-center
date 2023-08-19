@@ -53,6 +53,10 @@ body {
   color: var(--clr-white);
 }
 
+.login-form input:focus{
+  background: transparent;
+}
+
 .sign-flex {
   display: flex;
   align-items: center;

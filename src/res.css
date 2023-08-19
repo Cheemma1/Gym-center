@@ -67,8 +67,8 @@
     overflow: hidden;
     font-family: "Poppins", sans-serif;
     color: #fff;
-}
- 
+  }
+
   .close {
     font-size: 2rem;
     padding: 2rem;
@@ -88,13 +88,12 @@
     cursor: pointer;
     font-family: "Poppins", sans-serif;
   }
-  
-   .btn-container{
+
+  .btn-container {
     text-align: center;
     justify-content: center;
-   }
-  .up-btn{
-
+  }
+  .up-btn {
     margin-left: 1rem;
   }
   .hero {

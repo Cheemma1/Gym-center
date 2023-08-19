@@ -16,33 +16,28 @@ const Hero = () => {
         <div className="hero-btn">
           <button className="start-btn">Start Traning</button>
           <button className="watch-btn">
-            <span className="icon"><Play color="#097fd9"
-          weight="fill"
-          /></span>  Watch Video</button>
+            <span className="icon">
+              <Play color="#097fd9" weight="fill" />
+            </span>{" "}
+            Watch Video
+          </button>
         </div>
       </div>
 
       <div className="hero-right">
         {/* <h2 className="txt">Fitness</h2> */}
         <div className="img-content">
-           <h2 className="txt">Fitness</h2>
-           <div className="elipse-container">
-          <div className="elipse-img">
-            <img src={elipse1} alt="" />
-            <img src={elipse2} alt="" />
-            <img src={elipse3} alt="" />
+          <h2 className="txt">Fitness</h2>
+          <div className="elipse-container">
+            <div className="elipse-img">
+              <img src={elipse1} alt="" />
+              <img src={elipse2} alt="" />
+              <img src={elipse3} alt="" />
+            </div>
+            <p>10k+ Satisfied customers</p>
           </div>
-          <p>10k+ Satisfied customers</p>
+          <img src={heroimg} alt="gym-center-image" className="hero-img" />
         </div>
-        <img src={heroimg} alt="gym-center-image" className="hero-img" /></div>
-        {/* <div className="elipse-container">
-          <div className="elipse-img">
-            <img src={elipse1} alt="" />
-            <img src={elipse2} alt="" />
-            <img src={elipse3} alt="" />
-          </div>
-          <p>10k+ Satisfied customers</p>
-        </div> */}
       </div>
     </div>
   );
