@@ -641,7 +641,6 @@ footer img {
   background: transparent;
   border: 1px solid var(--clr-blue);
   border-radius: 5px;
-  /* border-bottom: 2px solid var(--clr-background); */
 }
 .pay-btn {
   width: 100%;
